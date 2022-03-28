@@ -1,0 +1,34 @@
+{
+"screenshotOnRunFailure": false,
+"video": false,
+"chromeWebSecurity": true,
+"experimentalStudio": false,
+"multiple": true,
+"testFiles": "**/*.feature",
+"ignoreTestFiles": ["*.js", "*.md"],
+
+"env":
+ {
+    "url": "https://app.pws.int.cruk.org/support-us/your-donation",
+    "amount":"10.00",
+    "motivation": "In memory of someone",
+    "cancerType": "Bowel cancer",
+    "firstname":"Tester",
+    "lastname":"O'Doh-erty",
+    "email":"auto-pws@cancer.org.uk",
+    "phone":"07999999999",
+    "address1":"37 The Rowans",
+    "address2":"",
+    "address3":"",
+    "town":"Woking",
+    "postcode":"GU22 7SS",
+    "country":"United Kingdom",
+    "emailOptIn":"no",
+    "cardNumber":"4000000000001000",
+    "cvv":"123",
+    "cardExpiry":"1225",
+    "giftaid":"yes"
+ }
+}
+
+

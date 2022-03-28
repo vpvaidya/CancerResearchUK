@@ -1,0 +1,112 @@
+[
+  {
+    "description": "As a user I'm able to access the Donation screen ",
+    "keyword": "Feature",
+    "name": "Cancer Rearch UK Donation Screen details",
+    "line": 1,
+    "id": "cancer-rearch-uk-donation-screen-details",
+    "tags": [],
+    "uri": "cancer_rearchdon.feature",
+    "elements": [
+      {
+        "id": "cancer-rearch-uk-donation-screen-details;validate-user-able-to-access-the-donation-details",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Validate user able to access the Donation details",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I successfully browse to the application",
+            "result": {
+              "status": "passed",
+              "duration": 3318000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "your-donation screen visble and able to fill all donation details",
+            "result": {
+              "status": "passed",
+              "duration": 2149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should able to continue for next page",
+            "result": {
+              "status": "passed",
+              "duration": 200000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cancer-rearch-uk-donation-screen-details;validate-user-able-to-access-the-user-details",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Validate user able to access the User details",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "your-details screen visble and able to fill all details",
+            "result": {
+              "status": "passed",
+              "duration": 5885000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should able to continue for next payment page",
+            "result": {
+              "status": "passed",
+              "duration": 262000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cancer-rearch-uk-donation-screen-details;validate-user-able-to-access-the-payment-details",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Validate user able to access the payment details",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "your-payment screen visble and able to fill all details",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#braintree-hosted-field-number`, but never found it.\n    at Function.paymentFrom (https://app.pws.int.cruk.org/__cypress/tests?p=cypress\\integration\\cucumber%2520bdd%2520test\\cancer_rearchdon.feature:220:10)\n    at Context.eval (https://app.pws.int.cruk.org/__cypress/tests?p=cypress\\integration\\cucumber%2520bdd%2520test\\cancer_rearchdon.feature:66:27)\n    at Context.resolveAndRunStepDefinition (https://app.pws.int.cruk.org/__cypress/tests?p=cypress\\integration\\cucumber%2520bdd%2520test\\cancer_rearchdon.feature:10673:29)\n    at Context.eval (https://app.pws.int.cruk.org/__cypress/tests?p=cypress\\integration\\cucumber%2520bdd%2520test\\cancer_rearchdon.feature:9994:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I should able to complete my donation journey",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
